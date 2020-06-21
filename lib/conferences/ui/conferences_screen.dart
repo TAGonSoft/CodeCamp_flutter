@@ -1,10 +1,12 @@
 import 'package:CodeCamp/conferences/ui/conference_detaild_screen.dart';
+import 'package:CodeCamp/helpers/FilesHelper.dart';
 import 'package:flutter/material.dart';
 
 import '../../widgets/app_drawer.dart';
 
 class ConferencesScreen extends StatelessWidget {
   static const routeName = '/';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,6 +20,7 @@ class ConferencesScreen extends StatelessWidget {
           subtitle: Text('address of the camp -> Palce'),
           onTap: () {
             Navigator.of(context).pushNamed(ConferenceDetailedScreen.routeName);
+            FilesHelper.getConference();
           },
         ),
       ),
