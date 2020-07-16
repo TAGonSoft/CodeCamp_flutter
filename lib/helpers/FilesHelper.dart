@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'dart:convert';
+
 import 'package:flutter/services.dart' show rootBundle;
 
 import 'package:path_provider/path_provider.dart' as syspaths;
@@ -16,19 +16,17 @@ class FilesHelper {
     return '$assetsFolder/$jsonFilesFolder/$fileName.$jsonFileExtension';
   }
 
-  static Future<void> getConference() async {
+  static Future<String> getConferencesJson() async {
     final documentsPath = await syspaths.getApplicationDocumentsDirectory();
     final conferencesPath =
         path.join(documentsPath.path, '$conferencesFileName.$jsonFileExtension');
 
-//    final conferencesPath =
-//        '{$documentsPath.path}/$conferencesFileName.$jsonFileExtension';
     File conferencesFile;
 
     if (FileSystemEntity.typeSync(conferencesPath) ==
         FileSystemEntityType.notFound) {
-      final conferencesData =
-          "dsadas da "; //= await rootBundle.loadString(FilesHelper.getBundlePath(conferencesFileName));
+      print('Conferences file not found try to copy from bundle.');
+      final conferencesData = await rootBundle.loadString(FilesHelper.getBundlePath(conferencesFileName));
       conferencesFile = File(conferencesPath);
       try {
         print(documentsPath.path);
@@ -40,8 +38,8 @@ class FilesHelper {
 
     conferencesFile = File(conferencesPath);
     String conferences = await conferencesFile.readAsString();
-    final jsonResult = json.decode(conferences);
-    print(jsonResult);
+    print(conferences);
+    return conferences;
   }
 
 //  Future<Database> initializeDatabase() async {
