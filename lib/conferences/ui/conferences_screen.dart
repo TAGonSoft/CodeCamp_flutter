@@ -16,15 +16,26 @@ class ConferencesScreen extends StatelessWidget {
         title: Text('Conferences'),
       ),
       body: ListView.builder(
-        itemCount: conferencesProvider.conferences.length,
-        itemBuilder: (ctx, index) => ListTile(
-          title: Text(conferencesProvider.conferences[index].title),
-          subtitle: Text(conferencesProvider.conferences[index].venue.name),
-          onTap: () {
-            Navigator.of(context).pushNamed(ConferenceDetailedScreen.routeName);
-          },
-        ),
-      ),
+          itemCount: conferencesProvider.conferences.length,
+          itemBuilder: (ctx, index) {
+            final conference = conferencesProvider.conferences[index];
+            var location = conferencesProvider.conferences[index].venue.name;
+            if (conferencesProvider.conferences[index].venue.city != null &&
+                conferencesProvider.conferences[index].venue.city != '-') {
+              location = location +
+                  ', ' +
+                  conferencesProvider.conferences[index].venue.city;
+            }
+
+            return ListTile(
+              title: Text(conference.title),
+              subtitle: Text(location),
+              onTap: () {
+                Navigator.of(context)
+                    .pushNamed(ConferenceDetailedScreen.routeName);
+              },
+            );
+          }),
       drawer: AppDrawer(),
     );
   }
