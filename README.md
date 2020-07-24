@@ -1,6 +1,6 @@
 # CodeCamp
 
-This is Romanian CodeCamp mobile applicaiton done in flutter.
+This is Romanian CodeCamp mobile application done in flutter.
 Official website url: http://codecamp.ro/
 Note that this is still work in progress and the apps are not published yet in to stores.
 
