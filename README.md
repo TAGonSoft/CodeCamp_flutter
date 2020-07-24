@@ -1,10 +1,10 @@
 # CodeCamp
 
-A new Flutter project.
+This is Romanian CodeCamp mobile applicaiton done in flutter.
+Official website url: http://codecamp.ro/
+Note that this is still work in progress and the apps are not published yet in to stores.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
