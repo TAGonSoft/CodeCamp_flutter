@@ -1,50 +1,134 @@
 [
   {
-    "refId": 4,
-    "title": "Codecamp Cluj-Napoca, 8 April 2017",
-    "startDate": "2017-04-08T00:00:00",
-    "endDate": "2017-04-08T00:00:00",
+    "refId": 46,
+    "title": "Codecamp_The Online Gathering",
+    "startDate": "2020-09-07T00:00:00",
+    "endDate": "2020-09-11T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 47,
+    "title": "Codecamp_The Architecture Conference",
+    "startDate": "2020-09-07T00:00:00",
+    "endDate": "2020-09-08T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 48,
+    "title": "Codecamp_The Java Conference",
+    "startDate": "2020-09-08T00:00:00",
+    "endDate": "2020-09-08T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 49,
+    "title": "Codecamp_The .NET Conference",
+    "startDate": "2020-09-09T00:00:00",
+    "endDate": "2020-09-10T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 52,
+    "title": "Codecamp_The DevOps Conference",
+    "startDate": "2020-09-09T00:00:00",
+    "endDate": "2020-09-10T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 51,
+    "title": "Codecamp_The Testing Conference",
+    "startDate": "2020-09-10T00:00:00",
+    "endDate": "2020-09-10T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 50,
+    "title": "Codecamp_The Frontend Conference",
+    "startDate": "2020-09-11T00:00:00",
+    "endDate": "2020-09-11T00:00:00",
+    "venue": {
+      "name": "Online",
+      "city": "-",
+      "country": "-",
+      "directions": "-"
+    }
+  },
+  {
+    "refId": 44,
+    "title": "Codecamp Timisoara, 10 October 2020",
+    "startDate": "2020-10-10T00:00:00",
+    "endDate": "2020-10-10T00:00:00",
+    "venue": {
+      "name": "UPT  Conference Center",
+      "city": "Timisoara",
+      "country": "Romania",
+      "directions": "45.747746, 21.228797"
+    }
+  },
+  {
+    "refId": 42,
+    "title": "Codecamp Iasi, 24 October 2020",
+    "startDate": "2020-10-24T00:00:00",
+    "endDate": "2020-10-24T00:00:00",
+    "venue": {
+      "name": "Hotel International",
+      "city": "Iasi",
+      "country": "Romania",
+      "directions": "47.154776, 27.586785"
+    }
+  },
+  {
+    "refId": 41,
+    "title": "Codecamp Bucharest, 7 November 2020",
+    "startDate": "2020-11-07T00:00:00",
+    "endDate": "2020-11-07T00:00:00",
+    "venue": {
+      "name": "JW Marriott Grand Hotel",
+      "city": "Bucharest",
+      "country": "Romania",
+      "directions": "44.4257, 26.0768"
+    }
+  },
+  {
+    "refId": 43,
+    "title": "Codecamp Cluj-Napoca, 21 November 2020",
+    "startDate": "2020-11-21T00:00:00",
+    "endDate": "2020-11-21T00:00:00",
     "venue": {
       "name": "Grand Hotel Italia",
       "city": "Cluj-Napoca",
       "country": "Romania",
       "directions": "46.752907, 23.605768"
-    }
-  },
-  {
-    "refId": 5,
-    "title": "Codecamp Iasi, 12-13 May 2017",
-    "startDate": "2017-05-12T00:00:00",
-    "endDate": "2017-05-13T00:00:00",
-    "venue": {
-      "name": "Hotel International",
-      "city": "Iasi",
-      "country": "Romania",
-      "directions": "47.154776, 27.586785"
-    }
-  },
-  {
-    "refId": 6,
-    "title": "Codecamp Baia Mare, 22 April 2017",
-    "startDate": "2017-04-22T00:00:00",
-    "endDate": "2017-04-22T00:00:00",
-    "venue": {
-      "name": "Universitatea Tehnica",
-      "city": "Baia Mare",
-      "country": "Romania",
-      "directions": "47.6589391, 23.5548313"
-    }
-  },
-  {
-    "refId": 7,
-    "title": "Codecamp Iasi, 27-28 Oct 2017",
-    "startDate": "2017-10-27T00:00:00",
-    "endDate": "2017-10-28T00:00:00",
-    "venue": {
-      "name": "Hotel International",
-      "city": "Iasi",
-      "country": "Romania",
-      "directions": "47.154776, 27.586785"
     }
   }
 ]
