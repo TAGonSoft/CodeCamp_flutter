@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:CodeCamp/conferences/model/conference.dart';
-import 'package:CodeCamp/helpers/FilesHelper.dart';
+import 'package:CodeCamp/helpers/files_helper.dart';
 import 'package:flutter/material.dart';
 
 import 'package:http/http.dart' as http;
